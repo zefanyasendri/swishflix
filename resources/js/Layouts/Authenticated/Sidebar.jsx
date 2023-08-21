@@ -7,17 +7,17 @@ export default function Sidebar() {
             <aside className="fixed z-50 w-[300px] h-full">
 
                 <div className="flex flex-col p-[30px] pr-0 border-r border-gray-[#F1F1F1] overflow-y-auto h-full">
-                    <a href="/">
+                    <Link href="/">
                         <img src="/images/swishflix-black.svg" alt=""/>
                         {/* <img src="/images/moonton.svg" alt=""/> */}
 
-                    </a>
+                    </Link>
                     <div className="links flex flex-col mt-[60px] h-full gap-[50px]">
 
                         {/* <!-- Menu --> */}
                         <div>
                             <div className="text-gray-1 text-sm mb-4">Menu</div>
-                            <a href="/" className="side-link active">
+                            <Link href={route('prototype.dashboard')} className="side-link active">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <g id="Iconly/Bulk/Home">
@@ -28,7 +28,7 @@ export default function Sidebar() {
                                     </g>
                                 </svg>
                                 Discover
-                            </a>
+                            </Link>
                             <a href="#!" className="side-link">
                                 <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"
                                     xmlns="http://www.w3.org/2000/svg">
