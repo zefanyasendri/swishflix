@@ -21,7 +21,7 @@ return new class extends Migration
             $table->float('rating')->default(0);
             $table->boolean('is_featured')->default(false);
             $table->timestamps();
-            #table->softDeletes();
+            $table->softDeletes();
         });
     }
 
