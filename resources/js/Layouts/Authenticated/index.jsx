@@ -7,7 +7,7 @@ export default function Authenticated({ auth, children }) {
         <React.Fragment>
             <div className="mx-auto max-w-screen hidden lg:block">
                 {/* START SIDEBAR */}
-                <Sidebar/>
+                <Sidebar auth={auth} />
                 {/* END SIDEBAR */}
 
                 <div className="ml-[300px] px-[50px]">
