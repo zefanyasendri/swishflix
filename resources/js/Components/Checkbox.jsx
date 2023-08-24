@@ -1,4 +1,4 @@
-export default function Checkbox({ className = '', ...props }) {
+export default function Checkbox({ className = '',  checked = false, ...props }) {
     return (
         <input
             {...props}
@@ -7,6 +7,7 @@ export default function Checkbox({ className = '', ...props }) {
                 'rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500 ' +
                 className
             }
+            defaultChecked={checked}
         />
     );
 }
