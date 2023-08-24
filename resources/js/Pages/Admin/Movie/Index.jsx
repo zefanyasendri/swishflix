@@ -2,11 +2,13 @@ import React from 'react'
 import Authenticated from '@/Layouts/Authenticated/Index'
 import PrimaryButton from '@/Components/PrimaryButton'
 import FlashMessage from '@/Components/FlashMessage'
-import {Link} from '@inertiajs/react'
+import {Link, Head, useForm} from '@inertiajs/react'
 
 export default function Index({auth, flashMessage, movies}) {
+    const {delete: destroy, put} = useForm();
     return (
         <Authenticated auth={auth}>
+            <Head title="Movie List" />
             <Link href={route('admin.dashboard.movie.create')}>
                 <PrimaryButton
                     type="button"
@@ -50,11 +52,25 @@ export default function Index({auth, flashMessage, movies}) {
                                 </Link>
                             </td>
                             <td>
-                                <PrimaryButton type="button" variant='danger'>
-                                    Delete
-                                </PrimaryButton>
+                                <div onClick={() => {
+                                    movie.deleted_at 
+                                    ? put(
+                                        route(
+                                            'admin.dashboard.movie.restore', 
+                                            movie.id
+                                        )) 
+                                    : destroy(
+                                        route(
+                                            'admin.dashboard.movie.destroy', 
+                                            movie.id
+                                        ));
+                                }}>
+                                    <PrimaryButton type="button" variant='danger'>
+                                        {movie.deleted_at ? 'Restore' : 'Delete'}
+                                    </PrimaryButton>
+                                </div>
+                                
                             </td>
-
                         </tr>
                     ))}
                 </tbody>
