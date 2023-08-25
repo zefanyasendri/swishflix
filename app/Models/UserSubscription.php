@@ -17,7 +17,7 @@ class UserSubscription extends Model
         'price',
         'expired_date',
         'payment_status',
-        'snapToken'
+        'snap_token'
     ];
 
     public function subscriptionPlan(): BelongsTo {
