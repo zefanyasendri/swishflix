@@ -1,12 +1,14 @@
-export default function Checkbox({ className = '',  checked = false, ...props }) {
+export default function Checkbox({ className, name, value, handleChange, checked = false }) {
     return (
         <input
-            {...props}
             type="checkbox"
+            name={name}
+            value={value}
             className={
                 'rounded border-gray-300 text-indigo-600 shadow-sm focus:ring-indigo-500 ' +
                 className
             }
+            onChange={(e) => handleChange(e)}
             defaultChecked={checked}
         />
     );

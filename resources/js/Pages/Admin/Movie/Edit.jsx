@@ -113,7 +113,7 @@ export default function Create({auth, movie}) {
                     <Label forinput="is_featured" value="Is Featured" className='mt-1 mr-3' />
                     <Checkbox
                         name="is_featured"
-                        handleChange={(e) => setData('is_featured', e.target.checked)}
+                        handleChange={(e) => setData("is_featured", e.target.checked)}
                         checked={movie.is_featured}
                     />
                     <InputError message={errors.is_featured} className="mt-2" />
