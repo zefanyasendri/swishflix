@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/detail%204.png" alt="BUMI Logo" width="200" height="200">
-  <img src="https://github.com/BUMI-Team/BUMI-Android/blob/main/screenshot/iconBangkit.png" alt="Bangkit Logo" width="200" height="200">
+<p align="left">
+    <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/logo.png" alt="Logo" width="150" height="150">
 </p>
 
 # Swishflix
@@ -17,7 +16,20 @@ SwishFlix, a website for streaming movies and series, built using a tech stack t
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+<p align="center">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/mac.png" alt="" style="margin-right: 10px;" width="550">
+</p>
+
+<p align="center">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/splash.png" alt="" style="margin-right: 10px;" width="400">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/homepage.png" alt="" style="margin-right: 10px;" width="400">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/play.png" alt="" style="margin-right: 10px;" width="400">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/subs20%plan.png" alt="" style="margin-right: 10px;" width="400">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/midtrans.png" alt="" style="margin-right: 10px;" width="400">
+    
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/admin.png" alt="" style="margin-right: 10px;" width="400">
+  <img src="https://github.com/zefanyasendri/swishflix/blob/main/public/images/screenshot/edit.png" alt="" style="margin-right: 10px;" width="400">
+</p>
 
 
 ## Tech Stack
@@ -35,24 +47,6 @@ SwishFlix, a website for streaming movies and series, built using a tech stack t
 ## Feedback
 
 If you have any feedback, please reach out to us at zefanyasendri@gmail.com
-
-
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-
 
 ## License
 
